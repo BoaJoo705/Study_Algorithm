@@ -8,13 +8,13 @@ public class Max4 {
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.println("네 정수의 최댓값을 구합니다.");
-		System.out.println("a의 값 : ");
+		System.out.print("a의 값 : ");
 		int a = stdIn.nextInt();
-		System.out.println("b의 값 : ");
+		System.out.print("b의 값 : ");
 		int b = stdIn.nextInt();
-		System.out.println("c의 값 : ");
+		System.out.print("c의 값 : ");
 		int c = stdIn.nextInt();
-		System.out.println("d의 값 : ");
+		System.out.print("d의 값 : ");
 		int d = stdIn.nextInt();
 
 		System.out.println("최댓값은 " + max4(a, b, c, d) + "입니다.");

@@ -7,11 +7,11 @@ public class Min3 {
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.println("세 정수의 최솟값을 구합니다.");
-		System.out.println("a의 값 : ");
+		System.out.print("a의 값 : ");
 		int a = stdIn.nextInt();
-		System.out.println("b의 값 : ");
+		System.out.print("b의 값 : ");
 		int b = stdIn.nextInt();
-		System.out.println("c의 값 : ");
+		System.out.print("c의 값 : ");
 		int c = stdIn.nextInt();
 		
 		System.out.println("최솟값은 " + min3(a, b, c) + "입니다.");
