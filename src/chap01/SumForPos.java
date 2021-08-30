@@ -15,7 +15,7 @@ class SumForPos {
 			n = stdIn.nextInt();
 		} while (n <= 0);
 
-		int sum = 0; // 합
+		int sum = 0; // 합 
 
 		for (int i = 1; i <= n; i++) { 
 			sum += i; // sum 에 i를 더합니다.

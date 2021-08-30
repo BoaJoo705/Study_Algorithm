@@ -12,10 +12,12 @@ public class Q8 {
 
 		int sum = 0;
 
-		for (int i = 1; i <= n; i++) {
-			sum += i + n - (i - 1);
-		}
-		sum=sum/2;
+//		for (int i = 1; i <= n; i++) {
+//			sum += i + n - (i - 1);
+//		}
+//		sum=sum/2;
+		
+		sum = (1+n)*(n/2);
 		System.out.println(sum);
 
 	}
