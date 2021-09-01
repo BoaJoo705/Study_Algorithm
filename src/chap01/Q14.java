@@ -8,10 +8,10 @@ public class Q14 {
 		int n;
 
 		do {
-			System.out.println("몇 단 사각형 입니까?:");
+			System.out.print("사각형을 출력합니다 ");
 			n = stdIn.nextInt();
 		} while (n <= 0);
-
+		System.out.println("단수: "+n);
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
 				System.out.print("*");

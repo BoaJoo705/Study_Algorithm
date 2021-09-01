@@ -8,10 +8,6 @@ public class Q15 {
 		Scanner stdIn = new Scanner(System.in);
 		int n = 0;
 
-//	do {
-//		System.out.println("몇 단 삼각형입니까?:");
-//		n = stdIn.nextInt();
-//	} while (n <= 0);
 
 		triangleLB(n, stdIn);
 		System.out.println();
