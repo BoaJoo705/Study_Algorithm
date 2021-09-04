@@ -15,8 +15,15 @@ public class Q9 {
 
 	static int sumof(int a, int b) {
 		int sum = 0;
-		for (int i = a; i <= b; i++) {
-			sum += i;
+
+		if (a < b) {
+			for (int i = a; i <= b; i++) {
+				sum += i;
+			}
+		} else {
+			for (int i = b; i <= a; i++) {
+				sum += i;
+			}
 		}
 		return sum;
 	}

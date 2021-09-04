@@ -16,9 +16,17 @@ public class Q8 {
 //			sum += i + n - (i - 1);
 //		}
 //		sum=sum/2;
-		
-		sum = (1+n)*(n/2);
-		System.out.println(sum);
 
+//		for (int i = 1; i <= n; i++) {
+//			sum = (1 + n) * n / 2;
+//		}
+//		System.out.println(sum);
+		int i = 1;
+		if (n % 2 == 0) {
+			sum = (i + n) * (n / 2);
+		} else {
+			sum = (i + n) * (n / 2) + (i + n) / 2;	// i+n이 중간 
+		}
+		System.out.println(sum);
 	}
 }
