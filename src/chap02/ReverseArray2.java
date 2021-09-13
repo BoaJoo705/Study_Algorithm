@@ -13,8 +13,9 @@ public class ReverseArray2 {
 
 		// 배열 a의 요소를 역순으로 정렬
 		static void reverse(int[] a) {
-			for (int i = 0; i < a.length / 2; i++)
+			for (int i = 0; i < a.length / 2; i++) {
 				swap(a, i, a.length - i - 1);
+			}
 		}
 
 		public static void main(String[] args) {
