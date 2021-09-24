@@ -21,12 +21,12 @@ public class Q2 {
 	}
 
 	static void print(int[] a) {
-		for(int i=0;i<a.length;i++) {
-			System.out.print(a[i] +" ");
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i] + " ");
 		}
 		System.out.println();
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
@@ -39,10 +39,10 @@ public class Q2 {
 			System.out.print("x[" + i + "]: ");
 			a[i] = stdIn.nextInt();
 		}
-		
+
 		reverse(a); // 배열 a의 요소를 역순으로 정렬
 
 		System.out.println("요소를 역순으로 정렬했습니다.");
-		
+
 	}
 }
