@@ -17,8 +17,8 @@ public class Q1 {
 			Random rand = new Random();
 
 			System.out.println("키의 최댓값을 구합니다.");
-			System.out.println("사람 수: ");
 			int num = rand.nextInt(10)+1;	// 사람수를 난수로 생성 
+			System.out.println("사람 수: " + num);
 
 			int[] height = new int[num];	
 
