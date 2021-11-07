@@ -16,14 +16,13 @@ public class Q4 {
 
 		int[] a = new int[nb];
 		copy(a, b);
-
+		
 		for (int i = 0; i < nb; i++) {
 			System.out.println("a[" + i + "] :" + a[i]);
 
 		}
 
 	}
-
 	static void copy(int[] a, int[] b) {
 
 		//a = new int[b.length];
